@@ -1,5 +1,6 @@
 ﻿using CleanInvoiceService;
 using CleanInvoiceService.Interfaces;
+using CleanInvoiceService.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
@@ -15,5 +16,3 @@ var builder = Host.CreateDefaultBuilder()
 var invoice = new Invoice(1, 100);
 var invoiceService = builder.Services.GetRequiredService<IInvoiceService>();
 invoiceService.ProcessInvoice(invoice);
-
-Console.ReadLine();
