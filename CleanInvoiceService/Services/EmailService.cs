@@ -1,4 +1,5 @@
 ﻿using CleanInvoiceService.Interfaces;
+using CleanInvoiceService.Models;
 
 namespace CleanInvoiceService;
 

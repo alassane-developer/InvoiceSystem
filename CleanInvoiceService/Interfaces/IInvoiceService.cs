@@ -1,4 +1,6 @@
-﻿namespace CleanInvoiceService.Interfaces;
+﻿using CleanInvoiceService.Models;
+
+namespace CleanInvoiceService.Interfaces;
 
 public interface IInvoiceService
 {

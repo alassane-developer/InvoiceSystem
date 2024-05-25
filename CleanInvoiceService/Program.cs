@@ -1,6 +1,8 @@
 ﻿using CleanInvoiceService;
 using CleanInvoiceService.Interfaces;
+using CleanInvoiceService.Models;
 using CleanInvoiceService.Repositories;
+using CleanInvoiceService.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 

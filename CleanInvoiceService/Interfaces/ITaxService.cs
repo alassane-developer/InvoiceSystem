@@ -2,7 +2,7 @@
 
 namespace CleanInvoiceService.Interfaces;
 
-public interface IRepository
+public interface ITaxService
 {
-    void Save(Invoice invoice);
+    double CalculateTax(Invoice invoice);
 }
